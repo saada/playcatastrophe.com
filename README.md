@@ -1,4 +1,4 @@
-# getcatastrophe.com
+# playcatastrophe.com
 
 ## DNS
 
