@@ -19,6 +19,14 @@ html {
   position: relative;
 }
 
+@media only screen and (min-device-width: 767px) {
+  .hero-image {
+    /* The file size of this background image is 93% smaller
+       to improve page load speed on mobile internet connections */
+    background-size: auto;
+  }
+}
+
 /* Place text in the middle of the image */
 .hero-text {
   text-align: center;
