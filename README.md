@@ -1,4 +1,4 @@
-# theshininghours.com
+# getcatastrophe.com
 
 ## DNS
 
