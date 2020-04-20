@@ -1,0 +1,463 @@
+
+@font-face {
+                          font-family: "PressStartReg";
+                          src: url('../fonts/PrStart.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "JoystixMonospace-Regular";
+                          src: url('../fonts/joystix monospace.ttf') format("truetype");
+                        }
+                        
+.donationsmobile {
+  width               : 100%;
+  min-width           : 375px;
+  height              : 100vh;
+  min-height          : 968px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(247, 243, 241, 1.0);
+  opacity             : 1.0;
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.donationsmobile .group2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 106px;
+  height              : 190px;
+  width               : 342px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.donationsmobile .group2 .donations {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 342px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "PressStartReg", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(48, 46, 46, 1.0);
+  text-align          : left;
+  line-height         : 30.37px;
+}
+.donationsmobile .group2 .thereisthisspark {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 46px;
+  height              : auto;
+  width               : 341px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(48, 46, 46, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.donationsmobile .group4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 65px;
+  height              : 19px;
+  width               : 345px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.donationsmobile .group4 .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 19px;
+  width               : 345px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.donationsmobile .group4 .group .group8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 19px;
+  width               : 33px;
+  position            : absolute;
+  margin              : 0;
+  left                : 312px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.donationsmobile .group4 .group .group8 .group7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 19px;
+  width               : 33px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.donationsmobile .group4 .group .group8 .group7 .line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 3px;
+  width               : 33px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.donationsmobile .group4 .group .group8 .group7 .linecopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 8px;
+  height              : 3px;
+  width               : 33px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.donationsmobile .group4 .group .group8 .group7 .linecopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : 3px;
+  width               : 33px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.donationsmobile .group4 .group .logo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 168px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.donationsmobile .group4 .group .logo .cat {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : 11px;
+  width               : 39px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.donationsmobile .group4 .group .logo .u2019 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 9px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 45px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.donationsmobile .group4 .group .logo .astrophe {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : 11px;
+  width               : 114px;
+  position            : absolute;
+  margin              : 0;
+  left                : 54px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.donationsmobile .group6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 338px;
+  height              : 271px;
+  width               : 343px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.donationsmobile .group6 .rectangle {
+  background-color    : rgba(235, 235, 241, 1.0);
+  top                 : 0px;
+  height              : 63px;
+  width               : 342px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  border-radius       : 31px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.donationsmobile .group6 .rectanglecopy {
+  background-color    : rgba(235, 235, 241, 1.0);
+  top                 : 78px;
+  height              : 63px;
+  width               : 342px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  border-radius       : 31px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.donationsmobile .group6 .rectanglecopy2 {
+  background-color    : rgba(235, 235, 241, 1.0);
+  top                 : 156px;
+  height              : 62px;
+  width               : 342px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  border-radius       : 31px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.donationsmobile .group6 .group5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 233px;
+  height              : 38px;
+  width               : 96px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.donationsmobile .group6 .group5 .rectanglecopy3 {
+  background-color    : rgba(235, 235, 241, 1.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 96px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 19px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.donationsmobile .group6 .group5 .send {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "PressStartReg", Helvetica, Arial, serif;
+  font-size           : 8.0px;
+  color               : rgba(48, 46, 46, 1.0);
+  text-align          : left;
+  line-height         : 8.0px;
+}
+.donationsmobile .group3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 618px;
+  height              : 519px;
+  width               : 714px;
+  position            : absolute;
+  margin              : 0;
+  left                : -252px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.donationsmobile .group3 .rainbow {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 42px;
+  height              : 477px;
+  width               : 477px;
+  position            : absolute;
+  margin              : 0;
+  left                : 190px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.donationsmobile .group3 .cat {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 477px;
+  width               : 613px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.donationsmobile .group3 .cloud2copy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 248px;
+  height              : 113px;
+  width               : 194px;
+  position            : absolute;
+  margin              : 0;
+  left                : 520px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.donationsmobile .group3 .cloud2copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 126px;
+  height              : 94px;
+  width               : 162px;
+  position            : absolute;
+  margin              : 0;
+  left                : 233px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.anima-component-wrapper,
+.anima-component-wrapper * {
+  pointer-events      : none;
+}
+.anima-component-wrapper a *,
+.anima-component-wrapper a,
+.anima-component-wrapper input,
+.anima-component-wrapper video,
+.anima-component-wrapper iframe,
+.anima-listeners-active,
+.anima-listeners-active * {
+  pointer-events      : auto;
+}
+.anima-hidden,
+.anima-hidden * {
+  visibility          : hidden;
+  pointer-events      : none;
+}
+.anima-smart-layers-pointers,
+.anima-smart-layers-pointers * {
+  pointer-events      : auto;
+  visibility          : visible;
+}
+.anima-component-wrapper.anima-not-ready,
+.anima-component-wrapper.anima-not-ready * {
+  visibility          : hidden !important;
+}
+.anima-listeners-active-click,
+.anima-listeners-active-click * {
+  cursor              : pointer;
+}
+
+
+
+}
+
+.group4 {
+  margin-top: 40px;
+}
+.donationsmobile :not(.group4) {
+  margin-top: 40px;

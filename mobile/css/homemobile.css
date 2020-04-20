@@ -1,0 +1,2492 @@
+
+@font-face {
+                          font-family: "PressStartReg";
+                          src: url('../fonts/PrStart.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "JoystixMonospace-Regular";
+                          src: url('../fonts/joystix monospace.ttf') format("truetype");
+                        }
+                        
+.homemobile {
+  width               : 100%;
+  min-width           : 375px;
+  height              : 100vh;
+  min-height          : 812px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(223, 175, 167, 1.0);
+  opacity             : 1.0;
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.homemobile .ch16copy35 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 639px;
+  height              : 108px;
+  width               : 109px;
+  position            : absolute;
+  margin              : 0;
+  left                : 200px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy35 .path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 60px;
+  height              : 3px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 99px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy35 .path1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 65px;
+  height              : 2px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 100px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy35 .path2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 107px;
+  width               : 93px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy35 .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 38px;
+  height              : 20px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 63px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy35 .path3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 37px;
+  height              : 21px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 70px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy35 .oval1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 40px;
+  height              : 20px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 28px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy35 .path4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 39px;
+  height              : 21px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy35 .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 43px;
+  height              : 6px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 40px;
+  transform           : rotate(0deg);
+  opacity             : 0.5;
+}
+.homemobile .ch16copy35 .group .oval2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy35 .group1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 43px;
+  height              : 6px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 74px;
+  transform           : rotate(0deg);
+  opacity             : 0.5;
+}
+.homemobile .ch16copy35 .group1 .oval2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy35 .path5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 64px;
+  height              : 6px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 51px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy35 .path6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 60px;
+  height              : 3px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy35 .path7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 65px;
+  height              : 2px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy35 .path8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4px;
+  height              : 101px;
+  width               : 55px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy35 .path9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 31px;
+  height              : 42px;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy35 .path10 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 56px;
+  height              : 50px;
+  width               : 78px;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy35 .path11 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 56px;
+  height              : 13px;
+  width               : 78px;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy35 .group2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 56px;
+  height              : 23px;
+  width               : 79px;
+  position            : absolute;
+  margin              : 0;
+  left                : 21px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+}
+.homemobile .ch16copy35 .group2 .path12 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 22px;
+  width               : 79px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy35 .group3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 85px;
+  height              : 22px;
+  width               : 69px;
+  position            : absolute;
+  margin              : 0;
+  left                : 28px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+}
+.homemobile .ch16copy35 .group3 .path12 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 21px;
+  width               : 68px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy35 .group41 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 73px;
+  height              : 14px;
+  width               : 76px;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+}
+.homemobile .ch16copy35 .group41 .path12 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 13px;
+  width               : 76px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy40 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 510px;
+  height              : 108px;
+  width               : 109px;
+  position            : absolute;
+  margin              : 0;
+  left                : 160px;
+  transform           : rotate(36deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy41 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 105px;
+  height              : 108px;
+  width               : 109px;
+  position            : absolute;
+  margin              : 0;
+  left                : 225px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy43 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 488px;
+  height              : 108px;
+  width               : 109px;
+  position            : absolute;
+  margin              : 0;
+  left                : -43px;
+  transform           : rotate(-36deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy43 .path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 61px;
+  height              : 3px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 99px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy43 .path1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 66px;
+  height              : 2px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 101px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy43 .path2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 107px;
+  width               : 93px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy43 .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 39px;
+  height              : 20px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 63px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy43 .path3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 38px;
+  height              : 21px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 71px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy43 .oval1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 41px;
+  height              : 20px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 28px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy43 .path4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 40px;
+  height              : 21px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy43 .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 44px;
+  height              : 6px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 41px;
+  transform           : rotate(0deg);
+  opacity             : 0.5;
+}
+.homemobile .ch16copy43 .group .oval2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy43 .group1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 44px;
+  height              : 6px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 74px;
+  transform           : rotate(0deg);
+  opacity             : 0.5;
+}
+.homemobile .ch16copy43 .group1 .oval2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy43 .path5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 65px;
+  height              : 6px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 52px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy43 .path6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 61px;
+  height              : 3px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy43 .path7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 66px;
+  height              : 2px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy43 .path8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : 101px;
+  width               : 55px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy43 .path9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 32px;
+  height              : 42px;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy43 .path10 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 57px;
+  height              : 50px;
+  width               : 78px;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy43 .path11 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 57px;
+  height              : 13px;
+  width               : 78px;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy43 .group2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 57px;
+  height              : 23px;
+  width               : 79px;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+}
+.homemobile .ch16copy43 .group2 .path12 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 22px;
+  width               : 79px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy43 .group3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 86px;
+  height              : 22px;
+  width               : 69px;
+  position            : absolute;
+  margin              : 0;
+  left                : 28px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+}
+.homemobile .ch16copy43 .group3 .path12 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 21px;
+  width               : 68px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy43 .group41 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 74px;
+  height              : 14px;
+  width               : 76px;
+  position            : absolute;
+  margin              : 0;
+  left                : 25px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+}
+.homemobile .ch16copy43 .group41 .path12 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 13px;
+  width               : 76px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy36 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 695px;
+  height              : 108px;
+  width               : 109px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy37 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 626px;
+  height              : 117px;
+  width               : 114px;
+  position            : absolute;
+  margin              : 0;
+  left                : 298px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy37 .path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 53px;
+  height              : 3px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(174deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy37 .path1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 50px;
+  height              : 2px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(174deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy37 .path2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : 107px;
+  width               : 93px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  transform           : rotate(174deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy37 .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 56px;
+  height              : 20px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 28px;
+  transform           : rotate(174deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy37 .path3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 55px;
+  height              : 21px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+  transform           : rotate(174deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy37 .oval1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 50px;
+  height              : 20px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 64px;
+  transform           : rotate(174deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy37 .path4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 50px;
+  height              : 21px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 67px;
+  transform           : rotate(174deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy37 .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 61px;
+  height              : 6px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 65px;
+  transform           : rotate(174deg);
+  opacity             : 0.5;
+}
+.homemobile .ch16copy37 .group .oval2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy37 .group1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 65px;
+  height              : 6px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+  transform           : rotate(174deg);
+  opacity             : 0.5;
+}
+.homemobile .ch16copy37 .group1 .oval2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy37 .path5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 42px;
+  height              : 6px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 48px;
+  transform           : rotate(174deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy37 .path6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 44px;
+  height              : 3px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 88px;
+  transform           : rotate(174deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy37 .path7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 40px;
+  height              : 2px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 89px;
+  transform           : rotate(174deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy37 .path8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4px;
+  height              : 101px;
+  width               : 55px;
+  position            : absolute;
+  margin              : 0;
+  left                : 52px;
+  transform           : rotate(174deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy37 .path9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 35px;
+  height              : 42px;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 70px;
+  transform           : rotate(174deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy37 .path10 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6px;
+  height              : 50px;
+  width               : 78px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  transform           : rotate(174deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy37 .path11 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 43px;
+  height              : 13px;
+  width               : 78px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+  transform           : rotate(174deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy37 .group2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 33px;
+  height              : 23px;
+  width               : 79px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+  transform           : rotate(174deg);
+  opacity             : 0.6;
+}
+.homemobile .ch16copy37 .group2 .path12 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 22px;
+  width               : 79px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy37 .group3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6px;
+  height              : 22px;
+  width               : 69px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  transform           : rotate(174deg);
+  opacity             : 0.6;
+}
+.homemobile .ch16copy37 .group3 .path12 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 21px;
+  width               : 68px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy37 .group41 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 26px;
+  height              : 14px;
+  width               : 76px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+  transform           : rotate(174deg);
+  opacity             : 0.6;
+}
+.homemobile .ch16copy37 .group41 .path12 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 13px;
+  width               : 76px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy32 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 742px;
+  height              : 108px;
+  width               : 109px;
+  position            : absolute;
+  margin              : 0;
+  left                : 138px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy45 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 750px;
+  height              : 108px;
+  width               : 109px;
+  position            : absolute;
+  margin              : 0;
+  left                : 297px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy13 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 215px;
+  height              : 108px;
+  width               : 109px;
+  position            : absolute;
+  margin              : 0;
+  left                : -27px;
+  transform           : rotate(23deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy13 .path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 60px;
+  height              : 3px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 98px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy13 .path1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 65px;
+  height              : 2px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 100px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy13 .path2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 107px;
+  width               : 93px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy13 .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 38px;
+  height              : 20px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 63px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy13 .path3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 37px;
+  height              : 21px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 70px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy13 .oval1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 40px;
+  height              : 20px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy13 .path4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 39px;
+  height              : 21px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 33px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy13 .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 43px;
+  height              : 6px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 40px;
+  transform           : rotate(0deg);
+  opacity             : 0.5;
+}
+.homemobile .ch16copy13 .group .oval2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy13 .group1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 43px;
+  height              : 6px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 74px;
+  transform           : rotate(0deg);
+  opacity             : 0.5;
+}
+.homemobile .ch16copy13 .group1 .oval2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy13 .path5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 64px;
+  height              : 6px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 51px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy13 .path6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 60px;
+  height              : 3px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy13 .path7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 65px;
+  height              : 2px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy13 .path8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4px;
+  height              : 101px;
+  width               : 55px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy13 .path9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 31px;
+  height              : 42px;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy13 .path10 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 56px;
+  height              : 50px;
+  width               : 78px;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy13 .path11 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 56px;
+  height              : 13px;
+  width               : 78px;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy13 .group2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 56px;
+  height              : 23px;
+  width               : 79px;
+  position            : absolute;
+  margin              : 0;
+  left                : 21px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+}
+.homemobile .ch16copy13 .group2 .path12 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 22px;
+  width               : 79px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy13 .group3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 85px;
+  height              : 22px;
+  width               : 69px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+}
+.homemobile .ch16copy13 .group3 .path12 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 21px;
+  width               : 68px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy13 .group41 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 73px;
+  height              : 14px;
+  width               : 76px;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+}
+.homemobile .ch16copy13 .group41 .path12 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 13px;
+  width               : 76px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy46 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 586px;
+  height              : 108px;
+  width               : 109px;
+  position            : absolute;
+  margin              : 0;
+  left                : 56px;
+  transform           : rotate(197deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy46 .path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 60px;
+  height              : 3px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 98px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy46 .path1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 65px;
+  height              : 2px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 100px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy46 .path2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 107px;
+  width               : 93px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy46 .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 38px;
+  height              : 20px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 63px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy46 .path3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 38px;
+  height              : 21px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 70px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy46 .oval1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 40px;
+  height              : 20px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy46 .path4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 39px;
+  height              : 21px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy46 .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 43px;
+  height              : 6px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 40px;
+  transform           : rotate(0deg);
+  opacity             : 0.5;
+}
+.homemobile .ch16copy46 .group .oval2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy46 .group1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 43px;
+  height              : 6px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 74px;
+  transform           : rotate(0deg);
+  opacity             : 0.5;
+}
+.homemobile .ch16copy46 .group1 .oval2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy46 .path5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 64px;
+  height              : 6px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 51px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy46 .path6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 60px;
+  height              : 3px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy46 .path7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 65px;
+  height              : 2px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy46 .path8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4px;
+  height              : 101px;
+  width               : 55px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy46 .path9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 31px;
+  height              : 42px;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy46 .path10 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 56px;
+  height              : 50px;
+  width               : 78px;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy46 .path11 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 56px;
+  height              : 13px;
+  width               : 78px;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy46 .group2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 56px;
+  height              : 23px;
+  width               : 79px;
+  position            : absolute;
+  margin              : 0;
+  left                : 21px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+}
+.homemobile .ch16copy46 .group2 .path12 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 22px;
+  width               : 79px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy46 .group3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 85px;
+  height              : 22px;
+  width               : 69px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+}
+.homemobile .ch16copy46 .group3 .path12 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 21px;
+  width               : 68px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy46 .group41 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 73px;
+  height              : 14px;
+  width               : 76px;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+}
+.homemobile .ch16copy46 .group41 .path12 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 13px;
+  width               : 76px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy24 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 514px;
+  height              : 108px;
+  width               : 109px;
+  position            : absolute;
+  margin              : 0;
+  left                : 297px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy24 .path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 61px;
+  height              : 3px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 99px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy24 .path1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 65px;
+  height              : 2px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 100px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy24 .path2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 107px;
+  width               : 93px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy24 .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 38px;
+  height              : 20px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 63px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy24 .path3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 38px;
+  height              : 21px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 70px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy24 .oval1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 40px;
+  height              : 20px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 28px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy24 .path4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 39px;
+  height              : 21px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy24 .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 43px;
+  height              : 6px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 40px;
+  transform           : rotate(0deg);
+  opacity             : 0.5;
+}
+.homemobile .ch16copy24 .group .oval2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy24 .group1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 43px;
+  height              : 6px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 74px;
+  transform           : rotate(0deg);
+  opacity             : 0.5;
+}
+.homemobile .ch16copy24 .group1 .oval2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy24 .path5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 64px;
+  height              : 6px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 51px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy24 .path6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 61px;
+  height              : 3px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy24 .path7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 65px;
+  height              : 2px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy24 .path8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4px;
+  height              : 101px;
+  width               : 55px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy24 .path9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 31px;
+  height              : 42px;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy24 .path10 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 57px;
+  height              : 50px;
+  width               : 78px;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy24 .path11 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 57px;
+  height              : 13px;
+  width               : 78px;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy24 .group2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 57px;
+  height              : 23px;
+  width               : 79px;
+  position            : absolute;
+  margin              : 0;
+  left                : 21px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+}
+.homemobile .ch16copy24 .group2 .path12 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 22px;
+  width               : 79px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy24 .group3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 85px;
+  height              : 22px;
+  width               : 69px;
+  position            : absolute;
+  margin              : 0;
+  left                : 28px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+}
+.homemobile .ch16copy24 .group3 .path12 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 21px;
+  width               : 68px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy24 .group41 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 73px;
+  height              : 14px;
+  width               : 76px;
+  position            : absolute;
+  margin              : 0;
+  left                : 25px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+}
+.homemobile .ch16copy24 .group41 .path12 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 13px;
+  width               : 76px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .group6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 326px;
+  height              : 160px;
+  width               : 220px;
+  position            : absolute;
+  margin              : 0;
+  left                : 82px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .group6 .group3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 88px;
+  height              : 72px;
+  width               : 220px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .group6 .group3 .path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 71px;
+  width               : 220px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .group6 .group3 .clipped {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 48px;
+  width               : 42px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .group6 .group3 .clipped .clipped4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 48px;
+  width               : 42px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .group6 .group3 .clipped1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 48px;
+  width               : 42px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .group6 .group3 .clipped1 .clipped4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 48px;
+  width               : 42px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .group6 .group3 .clipped2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 48px;
+  width               : 42px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .group6 .group3 .clipped2 .clipped4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 48px;
+  width               : 42px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .group6 .group3 .clipped3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 48px;
+  width               : 42px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .group6 .group3 .clipped3 .clipped4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 48px;
+  width               : 42px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .group6 .group3 .shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 26px;
+  height              : 29px;
+  width               : 142px;
+  position            : absolute;
+  margin              : 0;
+  left                : 66px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .group6 .group3 .shape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 25px;
+  height              : 21px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 134px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .group6 .group3 .shape2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 7px;
+  width               : 75px;
+  position            : absolute;
+  margin              : 0;
+  left                : 66px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .group6 .group2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 72px;
+  width               : 220px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .group6 .group2 .pathcopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 71px;
+  width               : 220px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .group6 .group2 .group5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : 49px;
+  width               : 179px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .group6 .group2 .group5 .shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 33px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .group6 .group2 .group5 .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 19px;
+  height              : 29px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 48px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .group6 .group2 .group5 .group .shape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 29px;
+  width               : 129px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .group6 .group2 .group5 .group1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 12px;
+  width               : 126px;
+  position            : absolute;
+  margin              : 0;
+  left                : 49px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .group6 .group2 .group5 .group1 .shape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 11px;
+  width               : 126px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy22 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 379px;
+  height              : 108px;
+  width               : 109px;
+  position            : absolute;
+  margin              : 0;
+  left                : 330px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy22 .path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 61px;
+  height              : 3px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 99px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy22 .path1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 66px;
+  height              : 2px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 100px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy22 .path2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 107px;
+  width               : 93px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy22 .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 39px;
+  height              : 20px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 63px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy22 .path3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 38px;
+  height              : 21px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 70px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy22 .oval1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 41px;
+  height              : 20px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 28px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy22 .path4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 40px;
+  height              : 21px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy22 .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 44px;
+  height              : 6px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 40px;
+  transform           : rotate(0deg);
+  opacity             : 0.5;
+}
+.homemobile .ch16copy22 .group .oval2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy22 .group1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 44px;
+  height              : 6px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 74px;
+  transform           : rotate(0deg);
+  opacity             : 0.5;
+}
+.homemobile .ch16copy22 .group1 .oval2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy22 .path5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 65px;
+  height              : 6px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 51px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy22 .path6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 61px;
+  height              : 3px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy22 .path7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 66px;
+  height              : 2px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy22 .path8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : 101px;
+  width               : 55px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy22 .path9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 32px;
+  height              : 42px;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy22 .path10 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 57px;
+  height              : 50px;
+  width               : 78px;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy22 .path11 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 57px;
+  height              : 13px;
+  width               : 78px;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy22 .group2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 57px;
+  height              : 23px;
+  width               : 79px;
+  position            : absolute;
+  margin              : 0;
+  left                : 21px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+}
+.homemobile .ch16copy22 .group2 .path12 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 22px;
+  width               : 79px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy22 .group3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 86px;
+  height              : 22px;
+  width               : 69px;
+  position            : absolute;
+  margin              : 0;
+  left                : 28px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+}
+.homemobile .ch16copy22 .group3 .path12 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 21px;
+  width               : 68px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .ch16copy22 .group41 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 74px;
+  height              : 14px;
+  width               : 76px;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+}
+.homemobile .ch16copy22 .group41 .path12 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 13px;
+  width               : 76px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .group4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 30px;
+  height              : 19px;
+  width               : 345px;
+  position            : absolute;
+  margin              : 0px;
+  margin-top: 35px;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .group4 .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 19px;
+  width               : 345px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .group4 .group .group8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 19px;
+  width               : 33px;
+  position            : absolute;
+  margin              : 0;
+  left                : 312px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .group4 .group .group8 .group7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 19px;
+  width               : 33px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .group4 .group .group8 .group7 .line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 3px;
+  width               : 33px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .group4 .group .group8 .group7 .linecopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 8px;
+  height              : 3px;
+  width               : 33px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .group4 .group .group8 .group7 .linecopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : 3px;
+  width               : 33px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .group4 .group .logo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 168px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .group4 .group .logo .cat {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : 11px;
+  width               : 39px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .group4 .group .logo .u2019 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 9px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 45px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homemobile .group4 .group .logo .astrophe {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : 11px;
+  width               : 114px;
+  position            : absolute;
+  margin              : 0;
+  left                : 54px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.anima-component-wrapper,
+.anima-component-wrapper * {
+  pointer-events      : none;
+}
+.anima-component-wrapper a *,
+.anima-component-wrapper a,
+.anima-component-wrapper input,
+.anima-component-wrapper video,
+.anima-component-wrapper iframe,
+.anima-listeners-active,
+.anima-listeners-active * {
+  pointer-events      : auto;
+}
+.anima-hidden,
+.anima-hidden * {
+  visibility          : hidden;
+  pointer-events      : none;
+}
+.anima-smart-layers-pointers,
+.anima-smart-layers-pointers * {
+  pointer-events      : auto;
+  visibility          : visible;
+}
+.anima-component-wrapper.anima-not-ready,
+.anima-component-wrapper.anima-not-ready * {
+  visibility          : hidden !important;
+}
+.anima-listeners-active-click,
+.anima-listeners-active-click * {
+  cursor              : pointer;
+}

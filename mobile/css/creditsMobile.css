@@ -1,0 +1,663 @@
+
+@font-face {
+                          font-family: "PressStartReg";
+                          src: url('../fonts/PrStart.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "JoystixMonospace-Regular";
+                          src: url('../fonts/joystix monospace.ttf') format("truetype");
+                        }
+                        
+.creditsmobile {
+  width               : 100%;
+  min-width           : 375px;
+  height              : 100vh;
+  min-height          : 968px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(247, 243, 241, 1.0);
+  opacity             : 1.0;
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.creditsmobile .group15 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 249px;
+  height              : 945px;
+  width               : 471px;
+  position            : absolute;
+  margin              : 0;
+  left                : -8px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.creditsmobile .group15 .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 29px;
+  height              : 88px;
+  width               : 157px;
+  position            : absolute;
+  margin              : 0;
+  left                : 305px;
+  transform           : rotate(-27deg);
+  opacity             : 1.0;
+}
+.creditsmobile .group15 .group2copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 787px;
+  height              : 81px;
+  width               : 80px;
+  position            : absolute;
+  margin              : 0;
+  left                : 26px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.creditsmobile .group15 .group31 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 523px;
+  height              : 85px;
+  width               : 112px;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+  transform           : rotate(30deg);
+  opacity             : 1.0;
+}
+.creditsmobile .group15 .group3copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 439px;
+  height              : 85px;
+  width               : 112px;
+  position            : absolute;
+  margin              : 0;
+  left                : 171px;
+  transform           : rotate(79deg);
+  opacity             : 1.0;
+}
+.creditsmobile .group15 .group42 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 852px;
+  height              : 93px;
+  width               : 114px;
+  position            : absolute;
+  margin              : 0;
+  left                : 327px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.creditsmobile .groupcopy6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 666px;
+  height              : 118px;
+  width               : 123px;
+  position            : absolute;
+  margin              : 0;
+  left                : -72px;
+  transform           : rotate(18deg);
+  opacity             : 1.0;
+}
+.creditsmobile .groupcopy6 .groupcopy4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 27px;
+  height              : 64px;
+  width               : 111px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  transform           : rotate(-42deg);
+  opacity             : 1.0;
+}
+.creditsmobile .group4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 463px;
+  height              : 124px;
+  width               : 341px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.creditsmobile .group4 .wededicatethisgam {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 33px;
+  height              : auto;
+  width               : 341px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(48, 46, 46, 0.65);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.creditsmobile .group4 .specialthanks {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : auto;
+  width               : 335px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "JoystixMonospace-Regular", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(48, 46, 46, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.creditsmobile .group4 .specialthanks .span1 {
+  line-height         : 17.35px;
+}
+.creditsmobile .group4 .specialthanks .span2 {
+  letter-spacing      : -10.0px;
+  line-height         : 17.35px;
+}
+.creditsmobile .group4 .specialthanks .span3 {
+  line-height         : 17.35px;
+}
+.creditsmobile .group5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 617px;
+  height              : 54px;
+  width               : 327px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.creditsmobile .group5 .playcatastrophegmai {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 33px;
+  height              : auto;
+  width               : 326px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(48, 46, 46, 0.65);
+  text-align          : left;
+  line-height         : 20.0px;
+}
+.creditsmobile .group5 .contactus {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : auto;
+  width               : 326px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "JoystixMonospace-Regular", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(48, 46, 46, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.creditsmobile .group5 .contactus .span1 {
+  line-height         : 17.35px;
+}
+.creditsmobile .group5 .contactus .span2 {
+  letter-spacing      : -10.0px;
+  line-height         : 17.35px;
+}
+.creditsmobile .group5 .contactus .span3 {
+  line-height         : 17.35px;
+}
+.creditsmobile .group2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 106px;
+  height              : 190px;
+  width               : 342px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.creditsmobile .group2 .thankyou {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 342px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "PressStartReg", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(48, 46, 46, 1.0);
+  text-align          : left;
+  line-height         : 30.0px;
+}
+.creditsmobile .group2 .thankyou .span1 {
+  line-height         : 30.37px;
+}
+.creditsmobile .group2 .thankyou .span2 {
+  letter-spacing      : -5.25px;
+  line-height         : 30.37px;
+}
+.creditsmobile .group2 .thankyou .span3 {
+  letter-spacing      : -6.67px;
+  line-height         : 30.37px;
+}
+.creditsmobile .group2 .thankyou .span4 {
+  line-height         : 30.37px;
+}
+.creditsmobile .group2 .whenwecameupwith {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 46px;
+  height              : auto;
+  width               : 341px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(48, 46, 46, 0.65);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.creditsmobile .group3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 327px;
+  height              : 106px;
+  width               : 341px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.creditsmobile .group3 .catgamedeveloperc {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 34px;
+  height              : auto;
+  width               : 163px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(48, 46, 46, 0.65);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.creditsmobile .group3 .moodstersaadamahmo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 34px;
+  height              : auto;
+  width               : 162px;
+  position            : absolute;
+  margin              : 0;
+  left                : 179px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(48, 46, 46, 0.65);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.creditsmobile .group3 .credits {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : auto;
+  width               : 329px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "JoystixMonospace-Regular", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(48, 46, 46, 1.0);
+  text-align          : left;
+  line-height         : 17.35px;
+}
+.creditsmobile .group2copy3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 603px;
+  height              : 82px;
+  width               : 80px;
+  position            : absolute;
+  margin              : 0;
+  left                : 335px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.creditsmobile .groupcopy5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 862px;
+  height              : 118px;
+  width               : 123px;
+  position            : absolute;
+  margin              : 0;
+  left                : 282px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.creditsmobile .groupcopy5 .groupcopy4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 27px;
+  height              : 64px;
+  width               : 111px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  transform           : rotate(-42deg);
+  opacity             : 1.0;
+}
+.creditsmobile .group14 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 624px;
+  height              : 710px;
+  width               : 480px;
+  position            : absolute;
+  margin              : 0;
+  left                : -82px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.creditsmobile .group14 .cat3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 118px;
+  height              : 474px;
+  width               : 146px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.81;
+}
+.creditsmobile .group14 .cat2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 59px;
+  height              : 592px;
+  width               : 273px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+}
+.creditsmobile .group14 .cat1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 710px;
+  width               : 438px;
+  position            : absolute;
+  margin              : 0;
+  left                : 42px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.creditsmobile .group41 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 19px;
+  width               : 345px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.creditsmobile .group41 .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 65px;
+  height              : 19px;
+  width               : 345px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.creditsmobile .group41 .group .group8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 19px;
+  width               : 33px;
+  position            : absolute;
+  margin              : 0;
+  left                : 312px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.creditsmobile .group41 .group .group8 .group7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 19px;
+  width               : 33px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.creditsmobile .group41 .group .group8 .group7 .line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 3px;
+  width               : 33px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.creditsmobile .group41 .group .group8 .group7 .linecopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 8px;
+  height              : 3px;
+  width               : 33px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.creditsmobile .group41 .group .group8 .group7 .linecopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : 3px;
+  width               : 33px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.creditsmobile .group41 .group .logo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 168px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.creditsmobile .group41 .group .logo .cat {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : 11px;
+  width               : 39px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.creditsmobile .group41 .group .logo .u2019 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 9px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 45px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.creditsmobile .group41 .group .logo .astrophe {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : 11px;
+  width               : 114px;
+  position            : absolute;
+  margin              : 0;
+  left                : 54px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.anima-component-wrapper,
+.anima-component-wrapper * {
+  pointer-events      : none;
+}
+.anima-component-wrapper a *,
+.anima-component-wrapper a,
+.anima-component-wrapper input,
+.anima-component-wrapper video,
+.anima-component-wrapper iframe,
+.anima-listeners-active,
+.anima-listeners-active * {
+  pointer-events      : auto;
+}
+.anima-hidden,
+.anima-hidden * {
+  visibility          : hidden;
+  pointer-events      : none;
+}
+.anima-smart-layers-pointers,
+.anima-smart-layers-pointers * {
+  pointer-events      : auto;
+  visibility          : visible;
+}
+.anima-component-wrapper.anima-not-ready,
+.anima-component-wrapper.anima-not-ready * {
+  visibility          : hidden !important;
+}
+.anima-listeners-active-click,
+.anima-listeners-active-click * {
+  cursor              : pointer;
+}
+
+.group41 {
+  margin-top: 40px;
+}
+.creditsmobile :not(.group41) {
+  margin-top: 40px;
+}
