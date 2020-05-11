@@ -1,380 +1,432 @@
+@font-face {
+  font-family: "PressStartReg";
+  src: url('../fonts/PrStart.ttf') format("truetype");
+}
 
 @font-face {
-                          font-family: "PressStartReg";
-                          src: url('../fonts/PrStart.ttf') format("truetype");
-                        }
-                        @font-face {
-                          font-family: "JoystixMonospace-Regular";
-                          src: url('../fonts/joystix monospace.ttf') format("truetype");
-                        }
-                        
+  font-family: "JoystixMonospace-Regular";
+  src: url('../fonts/joystix monospace.ttf') format("truetype");
+}
+
 .meganav {
-  width               : 100%;
-  min-width           : 375px;
-  height              : 100vh;
-  min-height          : 812px;
-  position            : relative;
-  overflow            : hidden;
-  margin              : 0px;
+  width: 100%;
+  min-width: 375px;
+  height: 100vh;
+  min-height: 812px;
+  position: relative;
+  overflow: hidden;
+  margin: 0px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color    : rgba(221, 231, 233, 1.0);
-  opacity             : 1.0;
+  background-color: rgba(221, 231, 233, 1.0);
+  opacity: 1.0;
 }
+
 a {
-  text-decoration     : none;
+  text-decoration: none;
 }
+
 div {
   -webkit-text-size-adjust: none;
 }
+
 .anima-full-width-a {
-  width               : 100%;
+  width: 100%;
 }
+
 .anima-full-height-a {
-  height              : 100%;
+  height: 100%;
 }
+
 div {
   -webkit-text-size-adjust: none;
 }
+
 .meganav .group3 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 740px;
-  height              : 21px;
-  width               : 333px;
-  position            : absolute;
-  margin              : 0;
-  left                : 22px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 740px;
+  height: 21px;
+  width: 333px;
+  position: absolute;
+  margin: 0;
+  left: 22px;
+  transform: rotate(0deg);
+  opacity: 1.0;
 }
+
 .meganav .group3 .instagramcopy {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 20px;
-  width               : 20px;
-  position            : absolute;
-  margin              : 0;
-  left                : 1px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 1px;
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  margin: 0;
+  left: 1px;
+  transform: rotate(0deg);
+  opacity: 1.0;
 }
+
 .meganav .group3 .instagramcopy .shape {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 20px;
-  width               : 20px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
 }
+
 .meganav .group3 .twittercopy {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 18px;
-  width               : 22px;
-  position            : absolute;
-  margin              : 0;
-  left                : 41px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 2px;
+  height: 18px;
+  width: 22px;
+  position: absolute;
+  margin: 0;
+  left: 41px;
+  transform: rotate(0deg);
+  opacity: 1.0;
 }
+
 .meganav .group3 .twittercopy .path {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 18px;
-  width               : 22px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 18px;
+  width: 22px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
 }
+
 .meganav .group3 .a2512020rm {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 9px;
-  height              : auto;
-  width               : 89px;
-  position            : absolute;
-  margin              : 0;
-  left                : 243px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "JoystixMonospace-Regular", Helvetica, Arial, serif;
-  font-size           : 10.0px;
-  color               : rgba(48, 46, 46, 1.0);
-  text-align          : right;
-  letter-spacing      : 0.5px;
-  line-height         : 12.0px;
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 9px;
+  height: auto;
+  width: 89px;
+  position: absolute;
+  margin: 0;
+  left: 243px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "JoystixMonospace-Regular", Helvetica, Arial, serif;
+  font-size: 10.0px;
+  color: rgba(48, 46, 46, 1.0);
+  text-align: right;
+  letter-spacing: 0.5px;
+  line-height: 12.0px;
 }
+
 .meganav .group {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 296px;
-  height              : 220px;
-  width               : 313px;
-  position            : absolute;
-  margin              : 0;
-  left                : 17px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 296px;
+  height: 220px;
+  width: 313px;
+  position: absolute;
+  margin: 0;
+  left: 17px;
+  transform: rotate(0deg);
+  opacity: 1.0;
 }
+
 .meganav .group .home {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : 117px;
-  position            : absolute;
-  margin              : 0;
-  left                : 36px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "PressStartReg", Helvetica, Arial, serif;
-  font-size           : 29.14px;
-  color               : rgba(48, 46, 46, 1.0);
-  text-align          : left;
-  line-height         : 36.87px;
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: auto;
+  width: 117px;
+  position: absolute;
+  margin: 0;
+  left: 44px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "PressStartReg", Helvetica, Arial, serif;
+  font-size: 29.14px;
+  color: rgba(48, 46, 46, 1.0);
+  text-align: left;
+  line-height: 36.87px;
 }
+
+.meganav .group .play {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 91px;
+  height: auto;
+  width: 117px;
+  position: absolute;
+  margin: 0;
+  left: 44px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "PressStartReg", Helvetica, Arial, serif;
+  font-size: 29.14px;
+  color: rgba(48, 46, 46, 1.0);
+  text-align: left;
+  line-height: 36.87px;
+}
+
 .meganav .group .credits {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 91px;
-  height              : auto;
-  width               : 204px;
-  position            : absolute;
-  margin              : 0;
-  left                : 44px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "PressStartReg", Helvetica, Arial, serif;
-  font-size           : 29.14px;
-  color               : rgba(48, 46, 46, 1.0);
-  text-align          : left;
-  line-height         : 36.87px;
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 182px;
+  height: auto;
+  width: 204px;
+  position: absolute;
+  margin: 0;
+  left: 44px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "PressStartReg", Helvetica, Arial, serif;
+  font-size: 29.14px;
+  color: rgba(48, 46, 46, 1.0);
+  text-align: left;
+  line-height: 36.87px;
 }
+
 .meganav .group .donations {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 182px;
-  height              : auto;
-  width               : 263px;
-  position            : absolute;
-  margin              : 0;
-  left                : 49px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "PressStartReg", Helvetica, Arial, serif;
-  font-size           : 29.14px;
-  color               : rgba(48, 46, 46, 1.0);
-  text-align          : left;
-  line-height         : 36.87px;
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 273px;
+  height: auto;
+  width: 263px;
+  position: absolute;
+  margin: 0;
+  left: 49px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "PressStartReg", Helvetica, Arial, serif;
+  font-size: 29.14px;
+  color: rgba(48, 46, 46, 1.0);
+  text-align: left;
+  line-height: 36.87px;
 }
+
 .meganav .group .a01 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 13px;
-  height              : auto;
-  width               : 19px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "PressStartReg", Helvetica, Arial, serif;
-  font-size           : 9.71px;
-  color               : rgba(48, 46, 46, 1.0);
-  text-align          : left;
-  line-height         : 9.71px;
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 13px;
+  height: auto;
+  width: 19px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "PressStartReg", Helvetica, Arial, serif;
+  font-size: 9.71px;
+  color: rgba(48, 46, 46, 1.0);
+  text-align: left;
+  line-height: 9.71px;
 }
+
 .meganav .group .a02 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 105px;
-  height              : auto;
-  width               : 19px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "PressStartReg", Helvetica, Arial, serif;
-  font-size           : 9.71px;
-  color               : rgba(48, 46, 46, 1.0);
-  text-align          : left;
-  line-height         : 9.71px;
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 105px;
+  height: auto;
+  width: 19px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "PressStartReg", Helvetica, Arial, serif;
+  font-size: 9.71px;
+  color: rgba(48, 46, 46, 1.0);
+  text-align: left;
+  line-height: 9.71px;
 }
+
 .meganav .group .a03 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 196px;
-  height              : auto;
-  width               : 19px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "PressStartReg", Helvetica, Arial, serif;
-  font-size           : 9.71px;
-  color               : rgba(48, 46, 46, 1.0);
-  text-align          : left;
-  line-height         : 9.71px;
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 196px;
+  height: auto;
+  width: 19px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "PressStartReg", Helvetica, Arial, serif;
+  font-size: 9.71px;
+  color: rgba(48, 46, 46, 1.0);
+  text-align: left;
+  line-height: 9.71px;
 }
+
+.meganav .group .a04 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 287px;
+  height: auto;
+  width: 19px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "PressStartReg", Helvetica, Arial, serif;
+  font-size: 9.71px;
+  color: rgba(48, 46, 46, 1.0);
+  text-align: left;
+  line-height: 9.71px;
+}
+
 .meganav .group2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 65px;
-  height              : 24px;
-  width               : 25px;
-  position            : absolute;
-  margin              : 0px;
-  left                : 334px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 65px;
+  height: 24px;
+  width: 25px;
+  position: absolute;
+  margin: 0px;
+  left: 334px;
+  transform: rotate(0deg);
+  opacity: 1.0;
 }
+
 .meganav .group2 .linecopy {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 3px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : -4px;
-  transform           : rotate(45deg);
-  opacity             : 1.0;
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 10px;
+  height: 3px;
+  width: 33px;
+  position: absolute;
+  margin: 0;
+  left: -4px;
+  transform: rotate(45deg);
+  opacity: 1.0;
 }
+
 .meganav .group2 .linecopy1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 3px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : -4px;
-  transform           : rotate(-45deg);
-  opacity             : 1.0;
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 10px;
+  height: 3px;
+  width: 33px;
+  position: absolute;
+  margin: 0;
+  left: -4px;
+  transform: rotate(-45deg);
+  opacity: 1.0;
 }
+
 .meganav .logo {
-background-color      : rgba(255,255,255,0.0);
-    top               : 65px;
-    height            : 19px;
-    width             : 345px;
-    position          : absolute;
-    margin            : 0px;
-    left              : 16px;
-    transform         : rotate(0deg);
-    opacity           : 1.0;
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 65px;
+  height: 19px;
+  width: 345px;
+  position: absolute;
+  margin: 0px;
+  left: 16px;
+  transform: rotate(0deg);
+  opacity: 1.0;
 }
+
 .meganav .logo .cat {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 5px;
-  height              : 11px;
-  width               : 39px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 5px;
+  height: 11px;
+  width: 39px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
 }
+
 .meganav .logo .u2019 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 9px;
-  width               : 6px;
-  position            : absolute;
-  margin              : 0;
-  left                : 45px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 9px;
+  width: 6px;
+  position: absolute;
+  margin: 0;
+  left: 45px;
+  transform: rotate(0deg);
+  opacity: 1.0;
 }
+
 .meganav .logo .astrophe {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 5px;
-  height              : 11px;
-  width               : 114px;
-  position            : absolute;
-  margin              : 0;
-  left                : 54px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 5px;
+  height: 11px;
+  width: 114px;
+  position: absolute;
+  margin: 0;
+  left: 54px;
+  transform: rotate(0deg);
+  opacity: 1.0;
 }
+
 /* .anima-animate-appear prefix for appear animations */
 .anima-animate-appear {
-  opacity             : 0;
-  display             : block;
-  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
-  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
-  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
-  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  opacity: 0;
+  display: block;
+  -webkit-animation: anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation: anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation: anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation: anima-reveal 0.3s ease-in-out 1 normal forwards;
 }
+
 .anima-animate-disappear {
-  opacity             : 1;
-  display             : block;
-  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
-  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  opacity: 1;
+  display: block;
+  -webkit-animation: anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation: anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation: anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation: anima-reveal 0.3s ease-in-out 1 reverse forwards;
 }
+
 .anima-animate-nodelay {
   -webkit-animation-delay: 0;
   -moz-animation-delay: 0;
-  -o-animation-delay  : 0;
-  animation-delay     : 0;
+  -o-animation-delay: 0;
+  animation-delay: 0;
 }
+
 @-webkit-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
+  0% {
+    opacity: 0;
+  }
+
+
+  100% {
+    opacity: 1;
+  }
 }
+
 @-moz-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
+  0% {
+    opacity: 0;
+  }
+
+
+  100% {
+    opacity: 1;
+  }
 }
+
 @-o-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
+  0% {
+    opacity: 0;
+  }
+
+
+  100% {
+    opacity: 1;
+  }
 }
+
 @keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
+  0% {
+    opacity: 0;
+  }
+
+
+  100% {
+    opacity: 1;
+  }
 }
+
 .anima-component-wrapper,
 .anima-component-wrapper * {
-  pointer-events      : none;
+  pointer-events: none;
 }
+
 .anima-component-wrapper a *,
 .anima-component-wrapper a,
 .anima-component-wrapper input,
@@ -382,23 +434,27 @@ background-color      : rgba(255,255,255,0.0);
 .anima-component-wrapper iframe,
 .anima-listeners-active,
 .anima-listeners-active * {
-  pointer-events      : auto;
+  pointer-events: auto;
 }
+
 .anima-hidden,
 .anima-hidden * {
-  visibility          : hidden;
-  pointer-events      : none;
+  visibility: hidden;
+  pointer-events: none;
 }
+
 .anima-smart-layers-pointers,
 .anima-smart-layers-pointers * {
-  pointer-events      : auto;
-  visibility          : visible;
+  pointer-events: auto;
+  visibility: visible;
 }
+
 .anima-component-wrapper.anima-not-ready,
 .anima-component-wrapper.anima-not-ready * {
-  visibility          : hidden !important;
+  visibility: hidden !important;
 }
+
 .anima-listeners-active-click,
 .anima-listeners-active-click * {
-  cursor              : pointer;
+  cursor: pointer;
 }
