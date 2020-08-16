@@ -6,13 +6,13 @@
   "orientation": "portrait",
   "icons": [
     {
-      "src": "../../mobile/img/favicon.png",
+      "src": "images/icon.png",
       "type": "image/png",
       "sizes": "192x192",
       "purpose": "maskable"
     },
     {
-      "src": "../../mobile/img/favicon.png",
+      "src": "images/icon.png",
       "type": "image/png",
       "sizes": "512x512",
       "purpose": "maskable"
