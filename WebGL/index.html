@@ -1,11 +1,21 @@
 <!DOCTYPE html>
+<!--html lang="en-us" manifest="v1.appcache"-->
 <html lang="en-us">
 
 <head>
   <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0" name="viewport" />
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta property="og:title" content="Catastrophe" />
+  <meta property="og:url" content="http://www.playcatastrophe.com" />
+  <meta property="og:image" content="http://www.playcatastrophe.com/cover.png" />
+  <link rel="apple-touch-icon" href="/mobile/img/favicon.png">
+  <meta name="theme-color" content="#deaaa1">
+  <link rel="manifest" href="manifest.json">
   <title>cat'astrophe</title>
-  <link rel="shortcut icon" href="TemplateData/favicon.ico">
+  <link rel="shortcut icon" href="/mobile/img/favicon.png">
   <link rel="stylesheet" href="TemplateData/style.css">
   <script src="TemplateData/UnityProgress.js"></script>
   <script src="Build/UnityLoader.js"></script>
@@ -14,17 +24,57 @@
       onProgress: UnityProgress
     });
   </script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-BJ7MD8VP11"></script>
 </head>
 
 <body>
+  <noscript>Please enable JavaScript!</noscript>
+
   <div class="webgl-content" onclick="unityInstance.SetFullscreen(1)">
     <div id="unityContainer" style="box-sizing: border-box; width: 100vw; height: 100vh"></div>
-    <div class="footer">
-      <!-- <div class="webgl-logo"></div> -->
-      <div class="fullscreen" style="" onclick="unityInstance.SetFullscreen(1)"></div>
-      <!-- <div class="title">cat'astrophe</div> -->
-    </div>
   </div>
+  <script src="./dependencies/a2hs.js"></script>
+  <script>
+    /*
+    // Detects if device is on iOS
+    const isIos = () => {
+      const userAgent = window.navigator.userAgent.toLowerCase();
+      return /iphone|ipad|ipod/.test( userAgent );
+    }
+    // Detects if device is in standalone mode
+    const isInStandaloneMode = () => ('standalone' in window.navigator) && (window.navigator.standalone);
+
+    // Checks if should display install popup notification:
+    if (isIos() && !isInStandaloneMode()) {
+      alert("You need to click Share then Add to Homescreen!")
+    }
+    */
+    AddToHomeScreen({
+      debug: false,
+      brandName: "cat'astrophe",
+      backgroundColor: "rgba(53, 51, 51, 0.95)", //"#2c2c2c",
+      color: "#fff",
+      padding: "2em",
+      logoImage: "<image/>", //"<image src='images/share.png' height='50'>",
+      htmlContent: `
+<strong style='font-size: 1.5em'>To play in fullscreen mode</strong>
+<div style='margin-top: 0.5em'>
+  <div style='margin-top: 0.5em; display: flex; justify-content: space-between; align-items: center'>
+    <div style='font-size: 1em'>1. Tap the share icon below</div>
+    <image src='images/share.png' width='15'/>
+  </div>
+  <div style='margin-top: 0.5em; display: flex; justify-content: space-between; align-items: center'>
+    <div style='font-size: 1em'>2. Scroll and press <strong>Add to Home Screen</strong></div>
+    <image src='images/add.png' width='15'/>
+  </div>
+</div>
+`
+    });
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('./sw.js');
+    };
+  </script>
 </body>
 
 </html>

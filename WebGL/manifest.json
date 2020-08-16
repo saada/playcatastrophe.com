@@ -1,0 +1,23 @@
+{
+  "short_name": "cat'astrophe",
+  "name": "Cat'astrophe",
+  "start_url": "index.html",
+  "display": "fullscreen",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "../../mobile/img/favicon.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "maskable"
+    },
+    {
+      "src": "../../mobile/img/favicon.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "maskable"
+    }
+  ],
+  "theme_color": "#deaaa1",
+  "background_color": "#231F20"
+}

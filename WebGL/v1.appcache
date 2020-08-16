@@ -1,0 +1,16 @@
+CACHE MANIFEST
+# v1 - 000005
+# This is a comment.
+/WebGL/index.html
+/WebGL/TemplateData/style.css
+/WebGL/TemplateData/UnityProgress.js
+/WebGL/Build/UnityLoader.js
+/WebGL/Build/WebGL.json
+/WebGL/TemplateData/progressLogo.Dark.png
+/WebGL/TemplateData/progressEmpty.Dark.png
+/WebGL/TemplateData/progressFull.Dark.png
+/WebGL/manifest.json
+/WebGL/Build/WebGL.wasm.framework.unityweb
+/mobile/img/favicon.png
+/WebGL/Build/WebGL.wasm.code.unityweb
+/WebGL/Build/WebGL.data.unityweb
