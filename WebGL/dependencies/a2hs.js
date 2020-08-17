@@ -53,7 +53,7 @@ var AddToHomeScreen = function(settings = {}) {
   var standalone =
     "standalone" in window.navigator && window.navigator.standalone;
   // Check localStorage before render a2hs container
-  if (settings.debug || iOS && !standalone) {
+  if (settings.show || iOS && !standalone) {
     // Define container variable
     var div = document.createElement("div");
     // Define style variable
