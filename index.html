@@ -1,17 +1,63 @@
 <!DOCTYPE html>
-<html>
-
-<head>
-    <title>cat'astrophe</title>
-    <meta http-equiv="refresh" content="0; url=./mobile/homemobile.html" />
-    <meta property="og:title" content="Catastrophe" />
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+      name="viewport"
+    />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta property="og:title" content="cat'astrophe" />
     <meta property="og:url" content="http://www.playcatastrophe.com" />
-    <meta property="og:image" content="http://www.playcatastrophe.com/cover.png" />
-    <link rel="icon" type="image/png" href="favicon.png">
-</head>
+    <meta
+      property="og:image"
+      content="http://www.playcatastrophe.com/images/icon.png"
+    />
+    <link rel="apple-touch-icon" href="./images/icon.png" />
+    <meta name="theme-color" content="#deaaa1" />
+    <link rel="manifest" href="manifest.json" />
+    <title>cat'astrophe</title>
+    <link rel="shortcut icon" href="./images/icon.png" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-BJ7MD8VP11"
+    ></script>
+  </head>
 
-<body>
-    <p>Redirecting to another URL</p>
-</body>
+  <body style="margin: 0;">
+    <noscript>Please enable JavaScript!</noscript>
 
+    <canvas
+      id="unity-canvas"
+      style="width: 100vw; height: 100vh; background: #2c2c2c;"
+    ></canvas>
+
+    <script src="./Build/WebGL.loader.js"></script>
+    <script>
+      UNITY_INSTANCE = () => {};
+      const unityInstance = createUnityInstance(
+        document.querySelector("#unity-canvas"),
+        {
+          dataUrl: "./Build/WebGL.data.unityweb",
+          frameworkUrl: "./Build/WebGL.framework.js.unityweb",
+          codeUrl: "./Build/WebGL.wasm.unityweb",
+          streamingAssetsUrl: "StreamingAssets",
+          companyName: "Mahmoud Saada",
+          productName: "cat'astrophe",
+          productVersion: "0.1",
+        }
+      );
+      unityInstance.then((i) => {
+        UNITY_INSTANCE = i;
+        document.getElementById("unity-canvas").onclick = () => {
+          UNITY_INSTANCE.Module.SetFullscreen(1);
+        };
+      });
+    </script>
+    <script defer src="./dependencies/a2hs.js"></script>
+    <script defer src="./dependencies/startup.js"></script>
+  </body>
 </html>
